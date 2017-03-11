@@ -5019,7 +5019,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
     .navbar-header {
-        float: right;
+        float: left;
     }
 }
 
@@ -5233,7 +5233,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 
     .navbar-nav > li {
-        float: left;
+        float: right;
     }
 
     .navbar-nav > li > a {

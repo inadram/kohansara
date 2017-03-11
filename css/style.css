@@ -6,6 +6,7 @@ body, html {
 	font-weight: 300;
 	width: 100% !important;
 	height: 100% !important;
+	direction: rtl;
 }
 h2 {
 	margin: 0 0 20px 0;

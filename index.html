@@ -272,14 +272,13 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <input type="text" id="name" class="form-control text-right" placeholder="نام"
-                                   required="required">
+                                   required="required" name="name">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="email" id="email" class="form-control text-right" placeholder="ایمیل"
-                                   required="required">
+                        <div class="form-group" style="direction: ltr">
+                            <input type="email" id="email" class="form-control text-left" placeholder="email" name="_replyto">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
@@ -290,7 +289,7 @@
                     <p class="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" class="btn btn-custom btn-lg">فرستادن</button>
+                <input type="submit" class="btn btn-custom btn-lg" value="فرستادن">
             </form>
         </div>
     </div>
